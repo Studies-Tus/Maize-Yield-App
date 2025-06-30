@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load("maize_yield_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("maize_yield_model (1).pkl")
+scaler = joblib.load("scaler (1).pkl")
 
 st.title("🌽 Maize Yield Prediction App")
 st.markdown("Enter farm conditions below to predict maize yield (tons/ha):")
